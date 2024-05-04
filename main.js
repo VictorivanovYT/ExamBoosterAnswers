@@ -413,7 +413,7 @@ function b1level(){
             ans.innerHTML = `1.${n1}, 2.${n2}, 3.${n3}, 4.${n4}, 5.${n5}, 6.${n6}, 7.${n7}, 8.${n8}`
             break
         case '2.2': //MISSED PART PLEASE REDO!!!
-            switch (task){
+            /*switch (task){
                 case '1':
                         n1="C"
                         n2="A"
@@ -565,7 +565,8 @@ function b1level(){
                         n8="B"
                     break
                 }
-                ans.innerHTML = `1.${n1}, 2.${n2}, 3.${n3}, 4.${n4}, 5.${n5}, 6.${n6}, 7.${n7}, 8.${n8}`
+                ans.innerHTML = `1.${n1}, 2.${n2}, 3.${n3}, 4.${n4}, 5.${n5}, 6.${n6}, 7.${n7}, 8.${n8}`*/
+                ans.innerHTML = "THIS PART IS CURRENTLY INAVAILABLE BECAUSE OF AN ANSWER INACCURACY, IT WILL BE FIXED AT A LATER TIME"
                 break
         case '1.3':
             switch (task){
