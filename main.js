@@ -412,7 +412,7 @@ function b1level(){
             }
             ans.innerHTML = `1.${n1}, 2.${n2}, 3.${n3}, 4.${n4}, 5.${n5}, 6.${n6}, 7.${n7}, 8.${n8}`
             break
-        case '2.2':
+        case '2.2': //MISSED PART PLEASE REDO!!!
             switch (task){
                 case '1':
                         n1="C"
