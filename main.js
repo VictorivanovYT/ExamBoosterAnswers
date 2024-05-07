@@ -44,7 +44,7 @@ function b1level(){
                     n6="A"
                     n7="A"
                     n8="C"
-                break
+                    break
                 case '4':
                     n1="B"
                     n2="A"
@@ -54,7 +54,7 @@ function b1level(){
                     n6="C"
                     n7="C"
                     n8="C"
-                break
+                    break
                 case '5':
                     n1="B"
                     n2="B"
@@ -64,7 +64,7 @@ function b1level(){
                     n6="C"
                     n7="A"
                     n8="A"
-                break
+                    break
                 case '6':
                     n1="B"
                     n2="B"
@@ -74,7 +74,7 @@ function b1level(){
                     n6="C"
                     n7="C"
                     n8="B"
-                break
+                    break
                 case '7':
                     n1="A"
                     n2="B"
@@ -84,7 +84,7 @@ function b1level(){
                     n6="A"
                     n7="A"
                     n8="C"
-                break
+                    break
                 case '8':
                     n1="C"
                     n2="A"
@@ -94,7 +94,7 @@ function b1level(){
                     n6="A"
                     n7="C"
                     n8="A"
-                break
+                    break
                 case '9':
                     n1="B"
                     n2="C"
@@ -104,7 +104,7 @@ function b1level(){
                     n6="A"
                     n7="B"
                     n8="B"
-                break
+                    break
                 case '10':
                     n1="B"
                     n2="B"
@@ -114,7 +114,7 @@ function b1level(){
                     n6="A"
                     n7="B"
                     n8="C"
-                break
+                    break
                 case '11':
                     n1="C"
                     n2="B"
@@ -298,7 +298,7 @@ function b1level(){
                     n6="A"
                     n7="B"
                     n8="B"
-                break
+                    break
                 case '4':
                     n1="B"
                     n2="B"
@@ -308,7 +308,7 @@ function b1level(){
                     n6="B"
                     n7="C"
                     n8="A"
-                break
+                    break
                 case '5':
                     n1="A"
                     n2="C"
@@ -318,7 +318,7 @@ function b1level(){
                     n6="C"
                     n7="A"
                     n8="A"
-                break
+                    break
                 case '6':
                     n1="C"
                     n2="A"
@@ -328,7 +328,7 @@ function b1level(){
                     n6="A"
                     n7="C"
                     n8="C"
-                break
+                    break
                 case '7':
                     n1="B"
                     n2="C"
@@ -338,7 +338,7 @@ function b1level(){
                     n6="C"
                     n7="A"
                     n8="C"
-                break
+                    break
                 case '8':
                     n1="C"
                     n2="A"
@@ -348,7 +348,7 @@ function b1level(){
                     n6="C"
                     n7="A"
                     n8="B"
-                break
+                    break
                 case '9':
                     n1="B"
                     n2="B"
@@ -358,7 +358,7 @@ function b1level(){
                     n6="A"
                     n7="C"
                     n8="C"
-                break
+                    break
                 case '10':
                     n1="A"
                     n2="B"
@@ -368,7 +368,7 @@ function b1level(){
                     n6="B"
                     n7="C"
                     n8="B"
-                break
+                    break
                 case '11':
                     n1="A"
                     n2="C"
@@ -378,7 +378,7 @@ function b1level(){
                     n6="A"
                     n7="C"
                     n8="B"
-                break
+                    break
                 case '12':
                     n1="C"
                     n2="A"
@@ -388,7 +388,7 @@ function b1level(){
                     n6="C"
                     n7="A"
                     n8="C"
-                break
+                    break
                 case '13':
                     n1="C"
                     n2="A"
@@ -398,7 +398,7 @@ function b1level(){
                     n6="A"
                     n7="C"
                     n8="B"
-                break
+                    break
                 case '14':
                     n1="A"
                     n2="C"
@@ -418,7 +418,7 @@ function b1level(){
                     n6="C"
                     n7="A"
                     n8="B"
-                break
+                    break
             }
             ans.innerHTML = `1.${n1}, 2.${n2}, 3.${n3}, 4.${n4}, 5.${n5}, 6.${n6}, 7.${n7}, 8.${n8}`
             break
@@ -453,7 +453,7 @@ function b1level(){
                         n6="D"
                         n7="C"
                         n8="C"
-                    break
+                        break
                     case '4':
                         n1="B"
                         n2="A"
@@ -463,7 +463,7 @@ function b1level(){
                         n6="D"
                         n7="D"
                         n8="B"
-                    break
+                        break
                     case '5':
                         n1="C"
                         n2="A"
@@ -473,7 +473,7 @@ function b1level(){
                         n6="C"
                         n7="D"
                         n8="B"
-                    break
+                        break
                     case '6':
                         n1="C"
                         n2="A"
@@ -483,7 +483,7 @@ function b1level(){
                         n6="A"
                         n7="B"
                         n8="D"
-                    break
+                        break
                     case '7':
                         n1="C"
                         n2="A"
@@ -493,7 +493,7 @@ function b1level(){
                         n6="B"
                         n7="B"
                         n8="D"
-                    break
+                        break
                     case '8':
                         n1="C"
                         n2="B"
@@ -503,7 +503,7 @@ function b1level(){
                         n6="C"
                         n7="A"
                         n8="C"
-                    break
+                        break
                     case '9':
                         n1="A"
                         n2="B"
@@ -513,7 +513,7 @@ function b1level(){
                         n6="A"
                         n7="C"
                         n8="D"
-                    break
+                        break
                     case '10':
                         n1="C"
                         n2="B"
@@ -523,7 +523,7 @@ function b1level(){
                         n6="D"
                         n7="A"
                         n8="D"
-                    break
+                        break
                     case '11':
                         n1="B"
                         n2="D"
@@ -533,7 +533,7 @@ function b1level(){
                         n6="B"
                         n7="D"
                         n8="B"
-                    break
+                        break
                     case '12':
                         n1="C"
                         n2="D"
@@ -543,7 +543,7 @@ function b1level(){
                         n6="D"
                         n7="A"
                         n8="C"
-                    break
+                        break
                     case '13':
                         n1="B"
                         n2="C"
@@ -553,7 +553,7 @@ function b1level(){
                         n6="B"
                         n7="A"
                         n8="B"
-                    break
+                        break
                     case '14':
                         n1="A"
                         n2="C"
@@ -563,7 +563,7 @@ function b1level(){
                         n6="D"
                         n7="A"
                         n8="C"
-                    break
+                        break
                     case '15':
                         n1="D"
                         n2="C"
@@ -573,7 +573,7 @@ function b1level(){
                         n6="C"
                         n7="A"
                         n8="C"
-                    break
+                        break
                 }
                 ans.innerHTML = `1.${n1}, 2.${n2}, 3.${n3}, 4.${n4}, 5.${n5}, 6.${n6}, 7.${n7}, 8.${n8}`
                 break
