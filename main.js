@@ -2,10 +2,13 @@ let n1="",n2="",n3="",n4="",n5="",n6=""
 let n7="",n8="",n9="",n10="",n11="",n12=""
 let n13="",n14="",n15="",n16="",n17="",n18=""
 let n19="",n20="",n21="",n22="",n23="",n24="",n25=""
+let type=""
 function b1level(){
     const part = document.getElementById('partb1').value
     const task = document.getElementById('taskb1').value
     var ans = document.getElementById('answerer')
+    switch (type){
+    case "Listening":
     switch (part){
         case '1':
             switch (task){
@@ -257,7 +260,11 @@ function b1level(){
             }
             ans.innerHTML = `1.${n1}, 2.${n2}, 3.${n3}, 4.${n4}, 5.${n5}, 6.${n6}, 7.${n7}, 8.${n8}`
             break
-        case '1.2':
+            }
+            break
+        case "Reading":
+        switch (task){
+        case '1':
             switch (task){
                 case '1':
                     n1="C"
@@ -412,7 +419,7 @@ function b1level(){
             }
             ans.innerHTML = `1.${n1}, 2.${n2}, 3.${n3}, 4.${n4}, 5.${n5}, 6.${n6}, 7.${n7}, 8.${n8}`
             break
-        case '2.2': //MISSED PART PLEASE REDO!!!
+        case '2':
             switch (task){
                 case '1':
                         n1="B"
@@ -567,7 +574,11 @@ function b1level(){
                 }
                 ans.innerHTML = `1.${n1}, 2.${n2}, 3.${n3}, 4.${n4}, 5.${n5}, 6.${n6}, 7.${n7}, 8.${n8}`
                 break
-        case '1.3':
+                }
+            break
+        case "UOF":
+        switch (part){
+        case '1':
             switch (task){
                         case '1':
                             n1="B"
@@ -842,7 +853,7 @@ function b1level(){
             }
             ans.innerHTML = `1.${n1}, 2.${n2}, 3.${n3}, 4.${n4}, 5.${n5}, 6.${n6}, 7.${n7}, 8.${n8}, 9.${n9}, 10.${n10}, 11.${n11}, 12.${n12}, 13.${n13}, 14.${n14}, 15.${n15}, 16.${n16}, 17.${n17}, 18.${n8}, 19.${n19}, 20.${n20}, 21.${n21}, 22.${n22}, 23.${n23}, 24.${n24}, 25.${n25}`
             break
-        case '2.3':
+        case '2':
             switch (task){
                         case '1':
                             n1="A"
@@ -1052,7 +1063,6 @@ function b1level(){
             ans.innerHTML = `1.${n1}, 2.${n2}, 3.${n3}, 4.${n4}, 5.${n5}, 6.${n6}, 7.${n7}, 8.${n8}, 9.${n9}, 10.${n10}, 11.${n11}, 12.${n12}, 13.${n13}, 14.${n14}, 15.${n15}`
             break
         case '3':
-        case '3.3':
             switch (task){
                         case '1':
                             n1="C"
@@ -1277,7 +1287,6 @@ function b1level(){
             }
             ans.innerHTML = `1.${n1}, 2.${n2}, 3.${n3}, 4.${n4}, 5.${n5}, 6.${n6}, 7.${n7}, 8.${n8}, 9.${n9}, 10.${n10}, 11.${n11}, 12.${n12}, 13.${n13}, 14.${n14}, 15.${n15}, 16.${n16}, 17.${n17}, 18.${n18}, 19.${n19}, 20.${n20}`
             break
-        case '4.3':
         case '4':
             switch (task){
                         case '1':
@@ -1453,7 +1462,6 @@ function b1level(){
             }
             ans.innerHTML = `1.${n1}, 2.${n2}, 3.${n3}, 4.${n4}, 5.${n5}, 6.${n6}, 7.${n7}, 8.${n8}, 9.${n9}, 10.${n10}, 11.${n11}, 12.${n12}, 13.${n13}, 14.${n14}, 15.${n15}`
             break
-        case '5.3':
         case '5':
             switch (task){
                         case '1':
@@ -1679,5 +1687,6 @@ function b1level(){
             }
             ans.innerHTML = `1.${n1}, 2.${n2}, 3.${n3}, 4.${n4}, 5.${n5}, 6.${n6}, 7.${n7}, 8.${n8}, 9.${n9}, 10.${n10}, 11.${n11}, 12.${n12}, 13.${n13}, 14.${n14}, 15.${n15}, 16.${n16}, 17.${n17}, 18.${n18}, 19.${n19}, 20.${n20}`
             break
+            }
     }
 }
