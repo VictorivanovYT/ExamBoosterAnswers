@@ -10,6 +10,7 @@ function b1level(){
     const part = document.getElementById('partb1').value
     const task = document.getElementById('taskb1').value
     var ans = document.getElementById('answerer')
+    ans.innerHTML = ""
     switch (type){
     case "Listening":
     switch (part){
