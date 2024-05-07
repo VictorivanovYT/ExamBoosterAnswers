@@ -576,7 +576,7 @@ function b1level(){
                 break
                 }
             break
-        case "UOF":
+        case "UOE":
         switch (part){
         case '1':
             switch (task){
