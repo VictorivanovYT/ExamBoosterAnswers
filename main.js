@@ -266,7 +266,7 @@ function b1level(){
             }
             break
         case "Reading":
-        switch (task){
+        switch (part){
         case '1':
             switch (task){
                 case '1':
